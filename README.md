@@ -295,4 +295,5 @@ See [CHANGELOG.md](CHANGELOG.md).
 **[JogiMitsu](https://github.com/JogiMitsu)**
 
 If this plugin saves your notes someday, consider starring the repo or opening an issue with feedback.
+https://buymeacoffee.com/jogimitsu
 Support is also appreciated :) 
