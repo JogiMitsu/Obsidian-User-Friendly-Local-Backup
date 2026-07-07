@@ -235,7 +235,6 @@ After the backend works, use **Retry keychain storage** in plugin settings, or t
 - Reads only vault files (respecting include/exclude rules)
 - Writes only to folders you configure
 - Never spawns shell commands or external archivers
-- Never phones home
 - Retention deletes only auto-generated backups matching this plugin's naming pattern
 
 Your backups are ordinary files — copy them to USB, NAS, or cloud storage on your own terms.
