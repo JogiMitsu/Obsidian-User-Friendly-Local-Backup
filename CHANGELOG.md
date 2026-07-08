@@ -62,4 +62,4 @@ First public release.
 - Post-write archive integrity verification
 - No network requests, no telemetry, no external archiver processes
 
-[1.0.0]: https://github.com/JogiMitsu/Obsidian-User-Friendly-Local-Backup/releases/tag/v1.0.0
+[1.0.0]: https://github.com/JogiMitsu/Obsidian-User-Friendly-Local-Backup/releases/tag/1.0.0
