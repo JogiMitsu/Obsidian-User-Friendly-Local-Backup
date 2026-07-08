@@ -34,7 +34,7 @@ User-Friendly Local Backup keeps a time-stamped archive of your entire Obsidian 
 
 ## Quick start
 
-1. [Install](#installation) the plugin into `.obsidian/plugins/obsidian-user-friendly-local-backup/`.
+1. [Install](#installation) the plugin into `.obsidian/plugins/user-friendly-local-backup/`.
 2. Enable **User-Friendly Local Backup** in **Settings → Community plugins**.
 3. Open **Settings → User-Friendly Local Backup**.
 4. Set your **output folder** (or leave empty to save next to the vault).
@@ -170,10 +170,10 @@ Example: `{vault}-Backup-%Y_%m_%d-%H_%M_%S` → `MyVault-Backup-2026_07_08-00_30
 
 ## Installation
 
-Download **`obsidian-user-friendly-local-backup-1.0.0.zip`** from [Releases](https://github.com/JogiMitsu/Obsidian-User-Friendly-Local-Backup/releases), extract `obsidian-user-friendly-local-backup` into:
+Download **`user-friendly-local-backup-1.0.0.zip`** from [Releases](https://github.com/JogiMitsu/Obsidian-User-Friendly-Local-Backup/releases), extract `user-friendly-local-backup` into:
 
 ```
-<your-vault>/.obsidian/plugins/obsidian-user-friendly-local-backup/
+<your-vault>/.obsidian/plugins/user-friendly-local-backup/
 ```
 
 Enable the plugin in Obsidian. Full instructions: [INSTALL.md](INSTALL.md).

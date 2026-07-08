@@ -9,11 +9,11 @@
 ## Option A — Download from GitHub Release (recommended)
 
 1. Open the [latest release](https://github.com/JogiMitsu/Obsidian-User-Friendly-Local-Backup/releases/latest).
-2. Download **`obsidian-user-friendly-local-backup-1.0.0.zip`**.
-3. Extract the `obsidian-user-friendly-local-backup` folder into your vault:
+2. Download **`user-friendly-local-backup-1.0.0.zip`**.
+3. Extract the `user-friendly-local-backup` folder into your vault:
 
    ```
-   <your-vault>/.obsidian/plugins/obsidian-user-friendly-local-backup/
+   <your-vault>/.obsidian/plugins/user-friendly-local-backup/
    ```
 
 4. In Obsidian: **Settings → Community plugins → Installed plugins → Enable** “User-Friendly Local Backup”.
@@ -22,7 +22,7 @@
 ### Expected folder layout after install
 
 ```
-.obsidian/plugins/obsidian-user-friendly-local-backup/
+.obsidian/plugins/user-friendly-local-backup/
 ├── main.js
 ├── manifest.json
 ├── styles.css
@@ -38,7 +38,7 @@
 
 > **Important:** The `vendor/` folder is required for **BZIP2**, **7z**, and **RAR** restore. Do not install only `main.js` and `manifest.json`.
 
-The plugin **id** in `manifest.json` is `obsidian-user-friendly-local-backup` — the folder name must match exactly.
+The plugin **id** in `manifest.json` is `user-friendly-local-backup` — the folder name must match exactly.
 
 ## Option B — Clone this repository
 
@@ -46,8 +46,8 @@ Install the bundled plugin folder from this repo:
 
 ```bash
 git clone https://github.com/JogiMitsu/Obsidian-User-Friendly-Local-Backup.git
-cp -r Obsidian-User-Friendly-Local-Backup/obsidian-user-friendly-local-backup \
-  "<your-vault>/.obsidian/plugins/obsidian-user-friendly-local-backup"
+cp -r Obsidian-User-Friendly-Local-Backup/user-friendly-local-backup \
+  "<your-vault>/.obsidian/plugins/user-friendly-local-backup"
 ```
 
 Then enable the plugin in Obsidian.
@@ -62,8 +62,8 @@ cd Obsidian-User-Friendly-Local-Backup
 npm install
 npm run build
 bash scripts/prepare-release.sh
-cp -r /home/nax112qq/Obsidian-User-Friendly-Local-Backup/obsidian-user-friendly-local-backup \
-  "<your-vault>/.obsidian/plugins/obsidian-user-friendly-local-backup"
+cp -r /home/nax112qq/Obsidian-User-Friendly-Local-Backup/user-friendly-local-backup \
+  "<your-vault>/.obsidian/plugins/user-friendly-local-backup"
 ```
 
 ## First-time setup
@@ -81,15 +81,15 @@ On XFCE and some Linux desktops, encryption passwords may fall back to plaintext
 ## Updating
 
 1. Disable the plugin in Obsidian.
-2. Replace the `obsidian-user-friendly-local-backup` folder with the new release (keep `data.json` if present).
+2. Replace the `user-friendly-local-backup` folder with the new release (keep `data.json` if present).
 3. Re-enable the plugin.
 
-Your settings in `.obsidian/plugins/obsidian-user-friendly-local-backup/data.json` are preserved if you do not delete that file.
+Your settings in `.obsidian/plugins/user-friendly-local-backup/data.json` are preserved if you do not delete that file.
 
 ## Uninstalling
 
 1. Disable the plugin in Obsidian.
-2. Delete `.obsidian/plugins/obsidian-user-friendly-local-backup/`.
+2. Delete `.obsidian/plugins/user-friendly-local-backup/`.
 3. Your backup archives in the output folder are **not** removed automatically.
 
 ## Migrating from a dev install (`Backup-plugin`)
@@ -97,6 +97,6 @@ Your settings in `.obsidian/plugins/obsidian-user-friendly-local-backup/data.jso
 If you previously used the development folder `Backup-plugin`:
 
 1. Disable the old plugin.
-2. Install `obsidian-user-friendly-local-backup` as above.
-3. Optionally copy `Backup-plugin/data.json` to `obsidian-user-friendly-local-backup/data.json`.
+2. Install `user-friendly-local-backup` as above.
+3. Optionally copy `Backup-plugin/data.json` to `user-friendly-local-backup/data.json`.
 4. Remove the old `Backup-plugin` folder.

@@ -1,9 +1,11 @@
 {
-	"id": "obsidian-user-friendly-local-backup",
+	"id": "user-friendly-local-backup",
 	"name": "User-Friendly Local Backup",
 	"version": "1.0.0",
 	"minAppVersion": "1.7.2",
 	"description": "Automatic local vault backups in ZIP, TAR, GZIP, BZIP2, or 7z — with encryption, restore, retention, and USB mirroring. 100% offline.",
 	"author": "JogiMitsu",
+	"authorUrl": "https://github.com/JogiMitsu",
+	"fundingUrl": "https://buymeacoffee.com/jogimitsu",
 	"isDesktopOnly": true
 }
